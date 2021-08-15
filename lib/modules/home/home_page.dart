@@ -80,7 +80,7 @@ class _HomePageState extends State<HomePage> {
             //Botao do Meio
             GestureDetector(
               onTap: () {
-                print("Clicou");
+                Navigator.pushNamed(context, "/barcode_scanner");
               },
               child: Container(
                 width: 56,
